@@ -4,7 +4,7 @@ export default function SocialLink() {
   return (
     <div className="bg-yellow lg:h-[100vh] pt-16 items-center overflow-hidden px-5 flex flex-col">
       <p className="text-7xl font-bold">SOCIALS</p>
-      <p className="text-3xl font-semibold">Join the $PONKE community</p>
+      <p className="text-3xl font-semibold">Join the $WYNNN community</p>
 
       <div className="flex mt-16 gap-4">
         <div className="flex mt-2 gap-4">
@@ -57,7 +57,9 @@ export default function SocialLink() {
             CLICK TO APE IN
           </Link>
 
-          <p className="text-5xl  lg:block hidden font-bold mt-16">wynnn</p>
+          <p className="text-5xl uppercase  lg:block hidden font-bold mt-16">
+            wynnn
+          </p>
         </div>
       </div>
     </div>

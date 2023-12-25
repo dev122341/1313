@@ -23,17 +23,17 @@ export default function TokenEnomics() {
           <div className="max-w-[30rem] mb-20">
             <Image
               className="animate-pulse"
-              src={"/atwork-white.webp"}
+              src={"/atwork2.svg"}
               width={1920}
               height={1080}
               alt="artwork"
             />
           </div>
-          <div className="w-full mb-5 text-2xl xl:text-4xl py-5 bg-yellow text-black">
+          <div className="w-full mb-5 px-1 text-2xl xl:text-4xl py-5 bg-yellow text-black">
             <p>TOTAL SUPPLY</p>
             <p>995,839,139.61 $Wynnn</p>
           </div>
-          <div className="w-full text-2xl xl:text-4xl py-5 bg-yellow text-black">
+          <div className="w-full px-2 text-2xl xl:text-4xl py-5 bg-yellow text-black">
             <p>TOKEN ADDRESS</p>
             <p className=" text-sm lg:text-xl">
               6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb

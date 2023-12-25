@@ -4,14 +4,8 @@ export default function HeaderSection() {
   return (
     <div className="mx-auto">
       <div className="bg-yellow md:h-[100vh] w-full overflow-hidden  flex flex-col items-center  relative pt-10">
-        <div className="relative  mb-16  px-9 md:w-[600px]  w-[100vw]   ">
-          <Image
-            className="object-cover"
-            src={"/logo-text-black.webp"}
-            width={300}
-            height={300}
-            alt="logo"
-          />
+        <div className="relative  mb-16 text-center px-9 md:w-[600px]  w-[100vw]   ">
+          <p className="text-7xl font-bold">WYNNN</p>
           <p className="mt-10 text-xl md:text-4xl">Powered by solana</p>
         </div>
 
