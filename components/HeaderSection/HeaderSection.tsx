@@ -7,8 +7,8 @@ export default function HeaderSection() {
           <Image
             className="object-cover"
             src={"/logo-text-black.webp"}
-            width={1920}
-            height={1080}
+            width={300}
+            height={300}
             alt="logo"
           />
           <p className="mt-10 text-xl md:text-4xl">Powered by solana</p>
@@ -31,7 +31,7 @@ export default function HeaderSection() {
             </p>
 
             <div className="flex items-center gap-9">
-              <button className="bg-red hover:scale-110  px-3 py-2 text-3xl text-white rotate-6 border-[4px] border-black">
+              <button className="bg-red hover:scale-110  px-3 py-2 text-xl md:text-3xl text-white rotate-6 border-[4px] border-black">
                 Buy Ponkie
               </button>
               <div className="flex mt-2 gap-4">

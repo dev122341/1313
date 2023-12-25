@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function TokenEnomics() {
   return (
     <div className="py-32 px-5 text-yellow-600 text-center flex flex-col items-center">
-      <h2 className="text-6xl font-bold">TOKENOMICS</h2>
+      <h2 className=" text-4xl md:text-6xl font-bold">TOKENOMICS</h2>
       <p className="text-white text-2xl w-96 mt-8 ">
         Wynnn made 555 Million tokens but hes{" "}
         <span className="text-red-500">a greedy son of a bitch</span> and wants
