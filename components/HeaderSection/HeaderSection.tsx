@@ -1,19 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
+
 export default function HeaderSection() {
   return (
     <div className="mx-auto text-black">
       <div className="bg-yellow md:h-[100vh] w-full overflow-hidden  flex flex-col items-center  relative pt-10">
         <div className="relative text-black  mb-16 text-center px-9 md:w-[600px]  w-[100vw]   ">
-          <p className="text-7xl !text-black font-bold">WYNNN</p>
-          <p className="mt-10 text-xl md:text-4xl">Powered by solana</p>
+          <p className=" text-7xl md:text-[140px] !text-black font-bold">
+            <span className="font-sans">$</span>WYNNN
+          </p>
+          <p className="mt-4 text-xl md:text-[28px]">Powered by solana</p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-9 items-start">
-          <div className=" order-2 md:order-1 w-full md:w-[48.5vw] mb-10  relative h-full   ">
+        <div className="flex flex-col md:flex-row gap-20 items-start">
+          <div className=" order-2 md:order-1  w-[60.5vw] mx-auto   md:w-[55.5vw] mb-24 md:mb-10  relative h-full   ">
             <Image
-              className=" scale-150 md:scale-110 mx-auto md:ml-[30rem] md:mb-48 bg-inherit"
-              src={"/anita1.svg"}
+              className="scale-150 md:scale-110 mx-auto md:ml-[30rem] md:mb-48 bg-inherit"
+              src={"/WYNN.png"}
               width={1920}
               height={1080}
               alt="ponkey"
@@ -21,8 +24,9 @@ export default function HeaderSection() {
           </div>
 
           <div className=" order-1 flex flex-0 flex-col mx-6 mb-5 md:mx-[30rem] items-start gap-y-20">
-            <p className="text-3xl mt-16 ">
-              Anita is a Degenerate Fairy That loves to Gamble
+            <p className="text-5xl md:mt-44 ">
+              <span className="text-red-600 text-7xl ">Anita</span> is a
+              Degenerate Fairy That loves to Gamble
             </p>
 
             <div className="flex items-center gap-9">

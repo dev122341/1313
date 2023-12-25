@@ -1,15 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
-import { Metamorphous } from "next/font/google";
-import { Rubik } from "next/font/google";
 
 import "./globals.css";
-
-const metamorphous = Metamorphous({
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const maladroit = localFont({
   src: [
@@ -24,11 +16,6 @@ const maladroit = localFont({
       style: "normal",
     },
   ],
-});
-
-const rubik = Rubik({
-  subsets: ["latin"],
-  weight: "400",
 });
 
 export const metadata: Metadata = {
