@@ -4,7 +4,7 @@ export default function HeaderSection() {
   return (
     <div className="mx-auto">
       <div className="bg-yellow md:h-[100vh] w-full overflow-hidden  flex flex-col items-center  relative pt-10">
-        <div className="relative mb-16 text-center px-9 md:w-[600px]  w-[100vw]   ">
+        <div className="relative  mb-16  px-9 md:w-[600px]  w-[100vw]   ">
           <Image
             className="object-cover"
             src={"/logo-text-black.webp"}
@@ -32,9 +32,15 @@ export default function HeaderSection() {
             </p>
 
             <div className="flex items-center gap-9">
-              <button className="bg-red hover:scale-110 uppercase px-3 py-2 text-xl md:text-3xl text-white rotate-6 border-[4px] border-black">
+              <Link
+                target="_blank"
+                href={
+                  "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+                }
+                className="bg-red hover:scale-110 uppercase px-3 py-2 text-xl md:text-3xl text-white rotate-6 border-[4px] border-black"
+              >
                 Buy wynnn
-              </button>
+              </Link>
               <div className="flex mt-2 gap-4">
                 <Link
                   target="_blank"

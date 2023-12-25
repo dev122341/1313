@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function TokenEnomics() {
   return (
     <div className="py-32 px-5 text-yellow-600 text-center flex flex-col items-center">
@@ -35,14 +36,20 @@ export default function TokenEnomics() {
           <div className="w-full text-2xl xl:text-4xl py-5 bg-yellow text-black">
             <p>TOKEN ADDRESS</p>
             <p className=" text-sm lg:text-xl">
-              5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC
+              6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb
             </p>
           </div>
         </div>
       </div>
-      <button className="bg-red uppercase mx-auto lg:ml-96 mt-14 animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl ">
-        BUY Ponkie here
-      </button>
+      <Link
+        target="_blank"
+        href={
+          "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+        }
+        className="bg-red uppercase mx-auto lg:ml-96 mt-14 animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl "
+      >
+        BUY Wynnn here
+      </Link>
     </div>
   );
 }

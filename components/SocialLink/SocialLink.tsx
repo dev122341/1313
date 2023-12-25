@@ -47,9 +47,15 @@ export default function SocialLink() {
           />
         </div>
         <div className="order-1 mt-24 lg:mt-0">
-          <button className="font-display text-white md:text-4xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate-[5deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-10deg]">
+          <Link
+            target="_blank"
+            href={
+              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+            }
+            className="font-display text-white md:text-4xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate-[5deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-10deg]"
+          >
             CLICK TO APE IN
-          </button>
+          </Link>
 
           <p className="text-5xl  lg:block hidden font-bold mt-16">wynnn</p>
         </div>
