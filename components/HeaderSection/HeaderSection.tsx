@@ -44,7 +44,7 @@ export default function HeaderSection() {
               <div className="flex mt-2 gap-4">
                 <Link
                   target="_blank"
-                  href={"https://t.me/AnitaMaxWynnnSolchannel"}
+                  href={"https://twitter.com/wynnn_sol"}
                   className="w-14 h-14 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
                 >
                   <Image
