@@ -16,7 +16,27 @@
   }
 }
 
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 182 35 / var(--tw-bg-opacity));
+}
+
+.strobe {
+  animation: strobe 0.1s ease-in-out infinite;
+}
+
+.__variable_d56851 {
+  --font-display: "__displayFont_d56851", "__displayFont_Fallback_d56851",
+    system-ui, Helvetica Neue, Helvetica, Arial;
+}
+
+.bg-red {
+  background-color: rgb(237 59 35 / var(--tw-bg-opacity));
+}
+
 body {
+  font-family: "__displayFont_d56851", "__displayFont_Fallback_d56851",
+    system-ui, Helvetica Neue, Helvetica, Arial;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
