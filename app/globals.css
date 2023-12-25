@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(237 182 35 / var(--tw-bg-opacity));
@@ -32,16 +18,4 @@
 
 .bg-red {
   background-color: rgb(237 59 35 / var(--tw-bg-opacity));
-}
-
-body {
-  font-family: "__displayFont_d56851", "__displayFont_Fallback_d56851",
-    system-ui, Helvetica Neue, Helvetica, Arial;
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
