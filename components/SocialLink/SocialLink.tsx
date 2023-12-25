@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 export default function SocialLink() {
   return (
@@ -6,23 +7,33 @@ export default function SocialLink() {
       <p className="text-3xl font-semibold">Join the $PONKE community</p>
 
       <div className="flex mt-16 gap-4">
-        <div className="w-20 h-20 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center">
-          <Image
-            className="w-16"
-            src={"/x.webp"}
-            width={100}
-            height={100}
-            alt="logo"
-          />
-        </div>
-        <div className="w-20 h-20 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center">
-          <Image
-            className="w-16"
-            src={"/telegram.webp"}
-            width={100}
-            height={100}
-            alt="logo"
-          />
+        <div className="flex mt-2 gap-4">
+          <Link
+            target="_blank"
+            href={"https://t.me/AnitaMaxWynnnSolchannel"}
+            className="w-20 h-20 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
+          >
+            <Image
+              className="w-16"
+              src={"/x.webp"}
+              width={100}
+              height={100}
+              alt="logo"
+            />
+          </Link>
+          <Link
+            target="_blank"
+            href={"https://t.me/AnitaMaxWynnnSolchannel"}
+            className="w-20 h-20 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
+          >
+            <Image
+              className="w-16"
+              src={"/telegram.webp"}
+              width={100}
+              height={100}
+              alt="logo"
+            />
+          </Link>
         </div>
       </div>
       <div className="flex px-5 lg:flex-row flex-col items-center gap-10">
@@ -40,7 +51,7 @@ export default function SocialLink() {
             CLICK TO APE IN
           </button>
 
-          <p className="text-5xl lg:block hidden font-bold mt-16">Ponke</p>
+          <p className="text-5xl  lg:block hidden font-bold mt-16">wynnn</p>
         </div>
       </div>
     </div>

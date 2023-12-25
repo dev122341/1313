@@ -30,11 +30,13 @@ export default function TokenEnomics() {
           </div>
           <div className="w-full mb-5 text-2xl xl:text-4xl py-5 bg-yellow text-black">
             <p>TOTAL SUPPLY</p>
-            <p>555,555,555 $PONKE</p>
+            <p>995,839,139.61 $Wynnn</p>
           </div>
           <div className="w-full text-2xl xl:text-4xl py-5 bg-yellow text-black">
-            <p>TOTAL SUPPLY</p>
-            <p>555,555,555 $PONKE</p>
+            <p>TOKEN ADDRESS</p>
+            <p className=" text-sm lg:text-xl">
+              5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC
+            </p>
           </div>
         </div>
       </div>

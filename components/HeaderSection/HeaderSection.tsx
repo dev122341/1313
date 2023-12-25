@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function HeaderSection() {
   return (
     <div className="mx-auto">
@@ -31,11 +32,15 @@ export default function HeaderSection() {
             </p>
 
             <div className="flex items-center gap-9">
-              <button className="bg-red hover:scale-110  px-3 py-2 text-xl md:text-3xl text-white rotate-6 border-[4px] border-black">
-                Buy Ponkie
+              <button className="bg-red hover:scale-110 uppercase px-3 py-2 text-xl md:text-3xl text-white rotate-6 border-[4px] border-black">
+                Buy wynnn
               </button>
               <div className="flex mt-2 gap-4">
-                <div className="w-14 h-14 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center">
+                <Link
+                  target="_blank"
+                  href={"https://t.me/AnitaMaxWynnnSolchannel"}
+                  className="w-14 h-14 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
+                >
                   <Image
                     className="w-10"
                     src={"/x.webp"}
@@ -43,8 +48,12 @@ export default function HeaderSection() {
                     height={100}
                     alt="logo"
                   />
-                </div>
-                <div className="w-14 h-14 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center">
+                </Link>
+                <Link
+                  target="_blank"
+                  href={"https://t.me/AnitaMaxWynnnSolchannel"}
+                  className="w-14 h-14 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
+                >
                   <Image
                     className="w-10"
                     src={"/telegram.webp"}
@@ -52,7 +61,7 @@ export default function HeaderSection() {
                     height={100}
                     alt="logo"
                   />
-                </div>
+                </Link>
               </div>
             </div>
           </div>
