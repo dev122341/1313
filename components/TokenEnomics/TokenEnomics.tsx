@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function TokenEnomics() {
   return (
-    <div className="py-32 px-5 text-yellow-600 text-center flex flex-col items-center">
+    <div className=" py-14 md:py-32 px-5 text-yellow-600 text-center flex flex-col items-center">
       <h2 className=" text-4xl uppercase md:text-6xl font-bold">TOKENOMICS</h2>
       <p className="text-white text-2xl max-w-[45rem]  mt-8 ">
         Anita Wynnn The Gambling Addicted Fairy Made 995,839,139.61 Tokens.{" "}

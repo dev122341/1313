@@ -39,9 +39,9 @@ export default function SocialLink() {
         </div>
       </div>
       <div className="flex px-5 lg:flex-row flex-col items-center gap-10">
-        <div className="max-w-[38.5rem] order-2 lg:order-1">
+        <div className=" max-w-[30rem] md:max-w-[38.5rem] order-2 lg:order-1">
           <Image
-            className="max-w-[37.5rem]"
+            className=" w-full max-w-[30rem] md:max-w-[38.5rem]"
             src={"/anita2.svg"}
             alt=""
             width={1920}
