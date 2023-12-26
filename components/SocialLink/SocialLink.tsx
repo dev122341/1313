@@ -42,7 +42,7 @@ export default function SocialLink() {
         <div className=" max-w-[30rem] mb-9 md:mb-0 md:max-w-[38.5rem] order-2 lg:order-1">
           <Image
             className=" w-full max-w-[30rem] md:max-w-[38.5rem]"
-            src={"/anita2.svg"}
+            src={"/WYNN.png"}
             alt=""
             width={1920}
             height={1080}
@@ -52,7 +52,7 @@ export default function SocialLink() {
           <Link
             target="_blank"
             href={
-              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+              "https://birdeye.so/token/6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb/GiBBdSFEnuNLsSTCLjP7tCZvqKFYnegPqD1orSgb8Kar?chain=solana"
             }
             className="font-display text-white md:text-4xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate-[5deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-10deg]"
           >
