@@ -49,29 +49,32 @@ export default function SocialLink() {
           />
         </div>
         <div className="order-1 mt-24 lg:mt-0">
-          <Link
-            target="_blank"
-            href={
-              "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
-            }
-            className="text-white md:text-3xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-3deg]"
-          >
-            CLICK TO APE IN
-          </Link>
-
+          <div className="animate-pulse rotate-3 md:-rotate-3">
+            <Link
+              target="_blank"
+              href={
+                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+              }
+              className="text-white md:text-3xl text-2xl bg-red border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
+            >
+              CLICK TO APE IN
+            </Link>
+          </div>
           <div className="flex items-center sm:flex-row flex-col mt-16 gap-7">
             <p className="text-5xl uppercase  lg:block hidden font-bold ">
               <span className="font-sans">$</span>wynnn
             </p>
-            <Link
-              target="_blank"
-              href={
-                "https://birdeye.so/token/6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb/GiBBdSFEnuNLsSTCLjP7tCZvqKFYnegPqD1orSgb8Kar?chain=solana"
-              }
-              className=" text-white md:text-3xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
-            >
-              Chart
-            </Link>
+            <div className="-rotate-3 md:rotate-3">
+              <Link
+                target="_blank"
+                href={
+                  "https://birdeye.so/token/6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb/GiBBdSFEnuNLsSTCLjP7tCZvqKFYnegPqD1orSgb8Kar?chain=solana"
+                }
+                className=" text-white md:text-3xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+              >
+                Chart
+              </Link>
+            </div>
           </div>
         </div>
       </div>
