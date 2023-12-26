@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function SocialLink() {
   return (
-    <div className="bg-yellow h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
+    <div className="bg-yellow  h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
       <p className="text-7xl font-bold">SOCIALS</p>
       <p className="text-3xl font-semibold">
         Join the <span className="font-sans font-bold">$</span>WYNNN community
@@ -39,7 +39,7 @@ export default function SocialLink() {
         </div>
       </div>
       <div className="flex px-5 lg:flex-row flex-col items-center gap-10">
-        <div className=" max-w-[30rem] md:max-w-[38.5rem] order-2 lg:order-1">
+        <div className=" max-w-[30rem] mb-9 md:mb-0 md:max-w-[38.5rem] order-2 lg:order-1">
           <Image
             className=" w-full max-w-[30rem] md:max-w-[38.5rem]"
             src={"/anita2.svg"}
