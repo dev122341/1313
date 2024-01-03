@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function SocialLink() {
   return (
-    <div className="bg-yellow  h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
+    <div className="bg-[#29536B] text-white  h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
       <p className="text-7xl font-bold">SOCIALS</p>
       <p className="text-3xl font-semibold">
         Join the <span className="font-sans font-bold">$</span>
@@ -39,24 +39,24 @@ export default function SocialLink() {
           </Link>
         </div>
       </div>
-      <div className="flex px-5 lg:flex-row flex-col items-center gap-10">
-        <div className=" max-w-[30rem] mb-9 md:mb-0 md:max-w-[38.5rem] order-2 lg:order-1">
+      <div className="flex px-5 w-full  lg:flex-row flex-col items-center gap-10">
+        <div className=" max-w-[30rem] w-full mb-9 md:mb-0 md:max-w-[55.5rem] order-2 lg:order-1">
           <Image
-            className=" w-full max-w-[30rem] md:max-w-[38.5rem]"
-            src={"/WYNN.png"}
+            className=" w-full "
+            src={"/all-dog.jpg"}
             alt=""
             width={1920}
             height={1080}
           />
         </div>
-        <div className="order-1 mt-24 lg:mt-0">
+        <div className="order-1 lg:ml-32 mt-24 lg:mt-0">
           <div className="animate-pulse rotate-3 md:-rotate-3">
             <Link
               target="_blank"
               href={
                 "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
               }
-              className="text-white md:text-3xl text-2xl bg-red border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
+              className="text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
             >
               CLICK TO APE IN
             </Link>
@@ -71,7 +71,7 @@ export default function SocialLink() {
                 href={
                   "https://birdeye.so/token/6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb/GiBBdSFEnuNLsSTCLjP7tCZvqKFYnegPqD1orSgb8Kar?chain=solana"
                 }
-                className=" text-white md:text-3xl text-2xl bg-red border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+                className=" text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
               >
                 Chart
               </Link>
