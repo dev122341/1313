@@ -2,14 +2,8 @@ import Image from "next/image";
 export default function DogsLayOut() {
   return (
     <div className="absolute w-full grid grid-cols-12 grid-rows-6 z-10">
-      <Image
-        className="col-start-4 w-52 row-start-2 row-end-3 col-end-4"
-        src={"/dog-1.svg"}
-        width={120}
-        height={120}
-        alt="dog-1"
-      />
-      <Image
+     
+      {/* <Image
         className="col-start-2 w-52 col-end-4 row-start-3 row-end-3"
         src={"/dog-2.svg"}
         width={120}
@@ -29,7 +23,7 @@ export default function DogsLayOut() {
         width={120}
         height={120}
         alt="dog-4"
-      />
+      /> */}
     </div>
   );
 }

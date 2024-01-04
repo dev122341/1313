@@ -3,7 +3,7 @@ import Image from "next/image";
 import DogsLayOut from "../DogsLayOut";
 export default function SocialLink2() {
   return (
-    <div className="bg-[#29536B] pb-5 pt-14  text-white  max-h-[55rem] ">
+    <div className="bg-[#29536B]  pt-14  text-white  max-h-[55rem] ">
       <div className="col-start-1 w-full flex flex-col  items-center ">
         <p className="text-7xl relative z-10 font-bold">SOCIALS</p>
         <p className="text-3xl font-semibold">
@@ -41,10 +41,18 @@ export default function SocialLink2() {
           </Link>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col  mt-36 gap-[5%] lg:gap-[8%] justify-center ">
-        <div className="flex max-w-[80%] order-2 lg:order-1 lg:max-w-[40%] px-2 lg:-ml-48 mr-20 ">
+      <div className="flex lg:flex-row flex-col  mt-36 gap-[5%] lg:gap-[2%] justify-center ">
+        <div className="flex w-full order-2 lg:order-1 lg:max-w-[47%] px-2 lg:-ml-48 mr-20 ">
           <Image
-            className="col-start-7 max-w-[30%] w-full row-start-3 order-4  row-end-3 col-end-7"
+            className="col-start-7  w-full row-start-3 order-4  row-end-3 col-end-7"
+            src={"/reverse.svg"}
+            width={120}
+            height={120}
+            alt="dog-1"
+          />
+
+          {/* <Image
+            className="col-start-7 max-w-[35%] w-full row-start-3 order-4  row-end-3 col-end-7"
             src={"/dog-1.svg"}
             width={120}
             height={120}
@@ -70,7 +78,7 @@ export default function SocialLink2() {
             width={120}
             height={120}
             alt="dog-4"
-          />
+          /> */}
         </div>
         <div className="lg:order-1 w-full flex  flex-col items-center mb-16 lg:mb-7 lg:w-auto">
           <div className="animate-pulse rotate-3 md:-rotate-3">
