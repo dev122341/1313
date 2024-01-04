@@ -20,7 +20,7 @@ const maladroit = localFont({
 
 export const metadata: Metadata = {
   title: "Konko",
-  description: "WYNNN trading app",
+  description: "Normal Dog by Day Degen at Night",
 };
 
 export default function RootLayout({
