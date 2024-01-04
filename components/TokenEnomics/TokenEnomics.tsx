@@ -34,10 +34,14 @@ export default function TokenEnomics() {
               999.999.999 <span className="font-sans font-bold">$</span>KONKO
             </p>
           </div>
-          <div className="w-full mb-5 px-20 text-2xl xl:text-6xl py-5 bg-red text-white ">
+          <div className="w-full mb-5 px-2 text-2xl xl:text-6xl py-5 bg-red text-white ">
             <p>Contract adress</p>
-            <p>
-              999.999.999 <span className="font-sans font-bold">$</span>KONKO
+            <p className=" text-sm sm:text-xl xl:text-3xl">
+              EnH
+              <span className="font-serif text-base sm:text-2xl xl:text-4xl font-semibold">
+                4
+              </span>
+              JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g{" "}
             </p>
           </div>
         </div>
@@ -45,9 +49,7 @@ export default function TokenEnomics() {
           <div className="animate-bounce">
             <Link
               target="_blank"
-              href={
-                "#"
-              }
+              href={"#"}
               className="bg-red uppercase   animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl "
             >
               BUY Konko here
