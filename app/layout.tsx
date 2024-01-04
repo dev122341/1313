@@ -19,7 +19,7 @@ const maladroit = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "WYNNN",
+  title: "Konko",
   description: "WYNNN trading app",
 };
 
