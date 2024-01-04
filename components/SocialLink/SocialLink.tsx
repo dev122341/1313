@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import DogsLayOut from "../DogsLayOut";
 export default function SocialLink() {
   return (
-    <div className="bg-[#29536B] text-white  h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
+    <div className="relative min-h-[43rem] bg-[#29536B] text-white  h-full pt-16 items-center overflow-hidden px-5 flex flex-col">
       <p className="text-7xl font-bold">SOCIALS</p>
       <p className="text-3xl font-semibold">
-        Join the <span className="font-sans font-bold">$</span>
+        Join <span className="font-sans font-bold">$</span>
         {"KONKO’S"} WORLD
       </p>
 
@@ -41,13 +42,13 @@ export default function SocialLink() {
       </div>
       <div className="flex px-5 w-full  lg:flex-row flex-col items-center gap-10">
         <div className=" max-w-[30rem] w-full mb-9 md:mb-0 md:max-w-[55.5rem] order-2 lg:order-1">
-          <Image
+          {/* <Image
             className=" w-full "
             src={"/all-dog.jpg"}
             alt=""
             width={1920}
             height={1080}
-          />
+          /> */}
         </div>
         <div className="order-1 lg:ml-32 mt-24 lg:mt-0">
           <div className="animate-pulse rotate-3 md:-rotate-3">
@@ -63,7 +64,7 @@ export default function SocialLink() {
           </div>
           <div className="flex items-center sm:flex-row flex-col mt-16 gap-7">
             <p className="text-5xl uppercase  lg:block hidden font-bold ">
-              <span className="font-sans">$</span>wynnn
+              <span className="font-sans">$</span>Konko
             </p>
             <div className="-rotate-3 md:rotate-3">
               <Link
