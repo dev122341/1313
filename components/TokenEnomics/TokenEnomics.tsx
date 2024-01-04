@@ -46,7 +46,7 @@ export default function TokenEnomics() {
             <Link
               target="_blank"
               href={
-                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+                "#"
               }
               className="bg-red uppercase   animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl "
             >

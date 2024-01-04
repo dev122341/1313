@@ -32,9 +32,7 @@ export default function HeaderSection() {
             <div className="flex w-full  flex-col items-center gap-9">
               <Link
                 target="_blank"
-                href={
-                  "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
-                }
+                href={"#"}
                 className="bg-[#EDB623] order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
                 Buy konko
@@ -43,7 +41,7 @@ export default function HeaderSection() {
               <div className="flex order-1 mt-2 gap-4">
                 <Link
                   target="_blank"
-                  href={"https://twitter.com/wynnn_sol"}
+                  href={"http://twitter.com/konko_sol"}
                   className="w-16 h-16 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
                 >
                   <Image
@@ -56,7 +54,7 @@ export default function HeaderSection() {
                 </Link>
                 <Link
                   target="_blank"
-                  href={"https://t.me/AnitaMaxWynnnSolchannel"}
+                  href={"https://t.me/Konkochannel"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
                 >
                   <Image
