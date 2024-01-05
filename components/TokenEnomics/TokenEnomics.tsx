@@ -49,7 +49,9 @@ export default function TokenEnomics() {
           <div className="animate-bounce">
             <Link
               target="_blank"
-              href={"#"}
+              href={
+                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+              }
               className="bg-red uppercase   animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl "
             >
               BUY Konko here

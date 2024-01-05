@@ -55,7 +55,9 @@ export default function SocialLink2() {
           <div className="animate-pulse rotate-3 md:-rotate-3">
             <Link
               target="_blank"
-              href={"#"}
+              href={
+                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+              }
               className="text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
             >
               CLICK TO APE IN
