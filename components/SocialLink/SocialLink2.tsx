@@ -50,35 +50,6 @@ export default function SocialLink2() {
             height={120}
             alt="dog-1"
           />
-
-          {/* <Image
-            className="col-start-7 max-w-[35%] w-full row-start-3 order-4  row-end-3 col-end-7"
-            src={"/dog-1.svg"}
-            width={120}
-            height={120}
-            alt="dog-1"
-          />
-          <Image
-            className="col-start-2  max-w-[35%] w-full col-end-3 row-start-3 row-end-3"
-            src={"/dog-2.svg"}
-            width={120}
-            height={120}
-            alt="dog-2"
-          />
-          <Image
-            className="col-start-6   max-w-[30%] w-full order-3  row-start-3 row-end-3 col-end-6"
-            src={"/dog-3.svg"}
-            width={120}
-            height={120}
-            alt="dog-3"
-          />
-          <Image
-            className="col-start-11  max-w-[30%] w-full col-end-12 row-start-2 sm:row-start-1 row-end-2 "
-            src={"/dog-4.svg"}
-            width={120}
-            height={120}
-            alt="dog-4"
-          /> */}
         </div>
         <div className="lg:order-1 w-full flex  flex-col items-center mb-16 lg:mb-7 lg:w-auto">
           <div className="animate-pulse rotate-3 md:-rotate-3">
@@ -97,7 +68,9 @@ export default function SocialLink2() {
             <div className="-rotate-3 md:rotate-3">
               <Link
                 target="_blank"
-                href={"#"}
+                href={
+                  "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
+                }
                 className=" text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
               >
                 Chart
