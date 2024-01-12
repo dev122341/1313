@@ -3,7 +3,7 @@ import Image from "next/image";
 import DogsLayOut from "../DogsLayOut";
 export default function SocialLink2() {
   return (
-    <div className="bg-[#29536B]  pt-14  text-white  max-h-[55rem] ">
+    <div className="bg-[#E5A220]  pt-14  text-white  max-h-[55rem] ">
       <div className="col-start-1 w-full flex flex-col  items-center ">
         <p className="text-7xl relative z-10 font-bold">SOCIALS</p>
         <p className="text-3xl font-semibold">
@@ -41,24 +41,24 @@ export default function SocialLink2() {
           </Link>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col  mt-36 gap-[5%] lg:gap-[2%] justify-center ">
-        <div className="flex w-full order-2 lg:order-1 lg:max-w-[47%] px-2 lg:-ml-48 mr-20 ">
+      <div className="flex lg:flex-row flex-col  mt-10 gap-[5%] lg:gap-[2%] justify-center ">
+        <div className="flex w-full bg-[#E5A220] order-2 lg:order-1 lg:max-w-[30%] px-2 lg:-ml-48 mr-20 ">
           <Image
             className="col-start-7  w-full row-start-3 order-4  row-end-3 col-end-7"
-            src={"/reverse.svg"}
+            src={"/water-dog.svg"}
             width={120}
             height={120}
             alt="dog-1"
           />
         </div>
-        <div className="lg:order-1 w-full flex  flex-col items-center mb-16 lg:mb-7 lg:w-auto">
+        <div className="lg:order-1 w-full flex mt-10 md:mt-28 flex-col items-center mb-16 lg:mb-7 lg:w-auto">
           <div className="animate-pulse rotate-3 md:-rotate-3">
             <Link
               target="_blank"
               href={
                 "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
               }
-              className="text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
+              className="text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
             >
               CLICK TO APE IN
             </Link>
@@ -73,7 +73,7 @@ export default function SocialLink2() {
                 href={
                   "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
                 }
-                className=" text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+                className=" text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
               >
                 Chart
               </Link>

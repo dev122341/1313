@@ -25,19 +25,19 @@ export default function TokenEnomics() {
       <p className="text-white text-2xl md:text-5xl max-w-[70rem]  mt-8 ">
         TOKENOMICS KONKO MADE 999.999.999 TOKENS. AND HE DOES
         <span className="font-sans">{"'"}</span>
-        NT KNOW WHAT TO DO WITH THEM 👀 HE AIR DROPED 85{" "}
+        NT KNOW WHAT TO DO WITH THEM 👀 HE AIR DROPED 50{" "}
         <span className="font-sans">{"%"}</span> OF SUPPLY TO THE SOLANA
         COMMUNITY
       </p>
       <div className="flex w-full mb-14 flex-col space-y-14  mt-14   space-x-7 justify-center items-center">
         <div className=" w-auto ">
-          <div className="w-full mb-5 px-20 text-2xl xl:text-6xl py-5 bg-red text-white ">
+          <div className="w-full mb-5 px-20 text-2xl xl:text-6xl py-5 bg-yellow text-white ">
             <p>TOTAL SUPPLY</p>
             <p>
               999.999.999 <span className="font-sans font-bold">$</span>KONKO
             </p>
           </div>
-          <div className="w-full mb-5 px-2 text-2xl xl:text-6xl py-5 bg-red text-white ">
+          <div className="w-full mb-5 px-2 text-2xl xl:text-6xl py-5 bg-yellow text-white ">
             <p>Contract adress</p>
             <p className=" text-sm sm:text-xl xl:text-3xl">
               EnH
