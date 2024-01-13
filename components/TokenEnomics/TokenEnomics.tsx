@@ -5,7 +5,7 @@ export default function TokenEnomics() {
     <div className="  pb-0  text-yellow-600 text-center flex flex-col items-center">
       <div className="flex md:flex-row flex-col w-full">
         <Image
-          className="animate-pulse w-full md:w-[50%]"
+          className="w-full md:w-[50%]"
           src={"/dog-bubble1.jpg"}
           width={1920}
           height={1080}
