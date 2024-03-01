@@ -64,7 +64,7 @@ export default function SocialLink() {
           </div>
           <div className="flex items-center sm:flex-row flex-col mt-16 gap-7">
             <p className="text-5xl uppercase  lg:block hidden font-bold ">
-              <span className="font-sans">$</span>Konko
+              <span className="font-sans">$</span>BOSS
             </p>
             <div className="-rotate-3 md:rotate-3">
               <Link
