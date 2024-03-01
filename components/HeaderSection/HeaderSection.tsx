@@ -25,7 +25,7 @@ export default function HeaderSection() {
             <p className=" text-5xl lg:text-7xl ml-3  ">
               {/* <span  text-7xl ">Anita</span> is a
               Degenerate Fairy That loves to Gamble */}
-              Normal Dog by Day <span className="text-red-600">Degen</span> at
+              BABY BOSS <span className="text-red-600">Degen</span> at
               Night
             </p>
 
@@ -37,7 +37,7 @@ export default function HeaderSection() {
                 }
                 className="bg-red order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
               >
-                Buy konko
+                Buy BOSS
               </Link>
 
               <div className="flex order-1 mt-2 gap-4">
