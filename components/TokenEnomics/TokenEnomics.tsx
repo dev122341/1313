@@ -36,7 +36,7 @@ export default function TokenEnomics() {
           <div className="w-full mb-5 px-20 text-2xl xl:text-6xl py-5 bg-yellow text-white ">
             <p>TOTAL SUPPLY</p>
             <p>
-              999.999.999 <span className="font-sans font-bold">$</span>KONKO
+              999.999.999 <span className="font-sans font-bold">$</span>BABYBOSS
             </p>
           </div>
           <div className="w-full mb-5 px-2 text-2xl xl:text-6xl py-5 bg-yellow text-white ">
@@ -46,7 +46,7 @@ export default function TokenEnomics() {
               <span className="font-serif text-base sm:text-2xl xl:text-4xl font-semibold">
                 4
               </span>
-              JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g{" "}
+              UPCOMING...{" "}
             </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function TokenEnomics() {
               }
               className="bg-red uppercase   animate-bounce lg:mr-auto text-white py-3 px-5 text-3xl "
             >
-              BUY Konko here
+              BE BOSS here
             </Link>
           </div>
         </div>
