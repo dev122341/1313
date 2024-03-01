@@ -7,7 +7,7 @@ export default function HeaderSection() {
       <div className="bg-[#E5A220] max-h-fit md:min-h-[100vh] w-full overflow-hidden  flex flex-col items-center  relative pt-10">
         <div className="relative text-white  mb-16 text-center px-9 md:w-[600px]  w-[100vw]   ">
           <p className=" text-7xl md:text-[140px] text-white font-bold">
-            <span className="font-sans">$</span>BABYBOSS
+            <span className="font-sans">$</span>BABYB
           </p>
         </div>
         <div className="flex px-[5%] flex-col md:flex-row  gap-20 items-center">
