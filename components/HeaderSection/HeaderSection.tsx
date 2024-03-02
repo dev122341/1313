@@ -19,6 +19,19 @@ export default function HeaderSection() {
               height={1080}
               alt="Boss"
             />
+
+<Link
+                target="_blank"
+                href={
+                  "https://paintbytext.chat/"
+                }
+                className="bg-blue order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
+              >
+                TRY AI 
+
+
+
+            
           </div>
 
           <div className=" order-1 text-white   flex  flex-col  mb-5  items-start gap-y-14">
