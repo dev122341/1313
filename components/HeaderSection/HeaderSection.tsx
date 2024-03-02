@@ -77,7 +77,7 @@ export default function HeaderSection() {
                 >
                   <Image
                     className="w-16"
-                    src={"/ai.webp"}
+                    src={"/aii.webp"}
                     width={100}
                     height={100}
                     alt="logo"
