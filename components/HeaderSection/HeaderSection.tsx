@@ -77,7 +77,7 @@ export default function HeaderSection() {
                 >
                   <Image
                     className="w-16"
-                    src={"/telegram.webp"}
+                    src={"/ai.webp"}
                     width={100}
                     height={100}
                     alt="logo"
