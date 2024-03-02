@@ -25,7 +25,7 @@ export default function HeaderSection() {
             <p className=" text-5xl lg:text-7xl ml-3  ">
               {/* <span  text-7xl ">Anita</span> is a
               Degenerate Fairy That loves to Gamble */}
-              BABY BOSS <span className="text-blue-600">Smart</span> Boi!
+              BABY BOSS <span className="text-blue-600">Smart</span> Boi
         
             </p>
 
