@@ -40,6 +40,20 @@ export default function HeaderSection() {
                 Buy BOSS
               </Link>
 
+              <div className="flex w-full  flex-col items-right gap-9">
+              <Link
+                target="_blank"
+                href={
+                  "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+                }
+                className="bg-blue order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
+              >
+                Buy BOSS
+              </Link>
+
+
+
+              
               <div className="flex order-1 mt-2 gap-4">
                 <Link
                   target="_blank"
