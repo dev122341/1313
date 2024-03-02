@@ -17,7 +17,7 @@ export default function HeaderSection() {
               src={"/dog.svg"}
               width={1920}
               height={1080}
-              alt="ponkey"
+              alt="Boss"
             />
           </div>
 
@@ -25,8 +25,8 @@ export default function HeaderSection() {
             <p className=" text-5xl lg:text-7xl ml-3  ">
               {/* <span  text-7xl ">Anita</span> is a
               Degenerate Fairy That loves to Gamble */}
-              BABY BOSS <span className="text-red-600">Degen</span> at
-              Night
+              BABY BOSS <span className="text-blue-600">Smart</span> Boi!
+        
             </p>
 
             <div className="flex w-full  flex-col items-center gap-9">
