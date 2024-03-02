@@ -20,6 +20,9 @@ export default function HeaderSection() {
               alt="Boss"
             />
 
+
+
+
 <Link
                 target="_blank"
                 href={
@@ -30,7 +33,8 @@ export default function HeaderSection() {
                 TRY AI 
 
 
-
+</Link>
+  
             
           </div>
 
