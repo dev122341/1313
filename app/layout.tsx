@@ -19,7 +19,7 @@ const maladroit = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Konko",
+  title: "BabyBoss",
   description: "Normal Dog by Day Degen at Night",
 };
 
