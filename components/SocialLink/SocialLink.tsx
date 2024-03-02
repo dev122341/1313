@@ -7,7 +7,7 @@ export default function SocialLink() {
       <p className="text-7xl font-bold">SOCIALS</p>
       <p className="text-3xl font-semibold">
         Join <span className="font-sans font-bold">$</span>
-        {"KONKO’S"} WORLD
+        {"BoSS’S"} WORLD
       </p>
 
       <div className="flex mt-16 gap-4">
