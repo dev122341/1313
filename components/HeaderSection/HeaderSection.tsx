@@ -70,20 +70,7 @@ export default function HeaderSection() {
 
  
                 
-                <Link
-                  target="_blank"
-                  href={"https://paintbytext.chat/"}
-                  className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
-                >
-                  <Image
-                    className="w-16"
-                    src={"/aii.webp"}
-                    width={100}
-                    height={100}
-                    alt="logo"
-                  />
-                </Link>
-
+            
 
 
                 
