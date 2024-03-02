@@ -19,13 +19,6 @@ export default function HeaderSection() {
               height={1080}
               alt="Boss"
             />
-
-
-
-
-
-  
-            
           </div>
 
           <div className=" order-1 text-white   flex  flex-col  mb-5  items-start gap-y-14">
@@ -51,7 +44,7 @@ export default function HeaderSection() {
 
 
               
-              <div className="flex order-1 mt-2 mt-3 gap-4">
+              <div className="flex order-1 mt-2 gap-4">
                 <Link
                   target="_blank"
                   href={"http://twitter.com/konko_sol"}
@@ -71,7 +64,8 @@ export default function HeaderSection() {
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
                 >
 
-  <Link
+  
+                  <Link
                   target="_blank"
                   href={"https://paintbytext.chat/"}
                   className="w-16 h-16 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
