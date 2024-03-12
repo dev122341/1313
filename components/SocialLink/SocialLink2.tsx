@@ -45,7 +45,7 @@ export default function SocialLink2() {
         <div className="flex w-full bg-[#E5A220] order-2 lg:order-1 lg:max-w-[30%] px-2 lg:-ml-48 mr-20 ">
           <Image
             className="col-start-7  w-full row-start-3 order-4  row-end-3 col-end-7"
-            src={"/water-dog.svg"}
+            src={"/bot.jpg"}
             width={120}
             height={120}
             alt="dog-1"
