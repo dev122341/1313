@@ -14,7 +14,7 @@ export default function HeaderSection() {
           <div className="order-2 md:order-1 max-w-[60vw] mb-9 md:mb-0  relative h-full   ">
             <Image
               className="scale-150 md:scale-110  mx-auto   md:mt-40 "
-              src={"/mbs.jpg"}
+              src={"/mbs.svg"}
               width={1920}
               height={1080}
               alt="ponkey"
