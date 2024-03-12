@@ -17,7 +17,7 @@ const NewsTicker = () => {
   return (
     <div className="py-3 bg">
       <div className={styles.newsTicker}>
-        <span className=" bg-yellow-600  text-xl text-black">
+        <span className=" bg-white-600  text-xl text-black">
           {newsItems[tickerIndex]}
         </span>
       </div>
