@@ -23,13 +23,13 @@ export default function TokenEnomics() {
         TOKENOMICS
       </h2>
       <p className="text-white text-2xl md:text-5xl max-w-[70rem]  mt-8 ">
-        KONKO MADE 999.999.999 TOKENS. AND HE DOES
+        Total Supply 999.999.999 TOKENS. AND HE DOES
         <span className="font-sans">{"'"}</span>
-        NT KNOW WHAT TO DO WITH THEM 👀 HE AIR DROPED{" "}
+        Token Burn is coming.... 👀 {" "}
         <span className="break-keep">
           <span className="font-sans font-bold">50{"%"}</span>
         </span>{" "}
-        OF SUPPLY TO THE SOLANA COMMUNITY
+        
       </p>
       <div className="flex w-full mb-14 flex-col space-y-14  mt-14   space-x-7 justify-center items-center">
         <div className=" w-auto ">
