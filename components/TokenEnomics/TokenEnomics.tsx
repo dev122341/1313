@@ -25,7 +25,7 @@ export default function TokenEnomics() {
       <p className="text-white text-2xl md:text-5xl max-w-[70rem]  mt-8 ">
         Total Supply 999.999.999 TOKENS. AND HE DOES
         <span className="font-sans">{"'"}</span>
-        Token Burn is coming.... 👀 {" "}
+        Token Burn... 👀 {" "}
         <span className="break-keep">
           <span className="font-sans font-bold">50{"%"}</span>
         </span>{" "}
