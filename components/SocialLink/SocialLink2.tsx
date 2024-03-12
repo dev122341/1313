@@ -28,7 +28,7 @@ export default function SocialLink2() {
           </Link>
           <Link
             target="_blank"
-            href={"https://t.me/Konkochannel"}
+            href={"https://t.me/Memeboss_sol"}
             className="w-20 h-20 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
           >
             <Image
