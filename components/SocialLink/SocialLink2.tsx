@@ -71,7 +71,7 @@ export default function SocialLink2() {
               <Link
                 target="_blank"
                 href={
-                  "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
+                  "https://birdeye.so/token/?chain=solana"
                 }
                 className=" text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
               >
