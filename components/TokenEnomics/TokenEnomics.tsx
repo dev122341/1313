@@ -6,7 +6,7 @@ export default function TokenEnomics() {
       <div className="flex md:flex-row flex-col w-full">
         <Image
           className="w-full md:w-[50%]"
-          src={"/dog-bubble1.jpg"}
+          src={"/mbbody.jpg"}
           width={1920}
           height={1080}
           alt="trading"
