@@ -14,7 +14,7 @@ export default function SocialLink() {
         <div className="flex mt-2 gap-4">
           <Link
             target="_blank"
-            href={"https://twitter.com/wynnn_sol"}
+            href={"https://twitter.com/"}
             className="w-20 h-20 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
           >
             <Image
@@ -27,7 +27,7 @@ export default function SocialLink() {
           </Link>
           <Link
             target="_blank"
-            href={"https://t.me/AnitaMaxWynnnSolchannel"}
+            href={"https://t.me/Memeboss_sol"}
             className="w-20 h-20 rotate-3 hover:scale-110 cursor-pointer bg-black flex items-center justify-center"
           >
             <Image
@@ -55,7 +55,7 @@ export default function SocialLink() {
             <Link
               target="_blank"
               href={
-                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb&fixed=in"
+                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=&fixed=in"
               }
               className="text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
             >
@@ -70,7 +70,7 @@ export default function SocialLink() {
               <Link
                 target="_blank"
                 href={
-                  "https://birdeye.so/token/6LRrSLtw3KpqAxDzbXJRq9yDr9fUTm6N3345kvb1BeLb/GiBBdSFEnuNLsSTCLjP7tCZvqKFYnegPqD1orSgb8Kar?chain=solana"
+                  "https://birdeye.so/token/?chain=solana"
                 }
                 className=" text-white md:text-3xl text-2xl bg-yellow border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
               >
