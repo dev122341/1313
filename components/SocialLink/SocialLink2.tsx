@@ -15,7 +15,7 @@ export default function SocialLink2() {
         <div className="flex mt-2 gap-4">
           <Link
             target="_blank"
-            href={"http://twitter.com/konko_sol"}
+            href={"http://twitter.com/"}
             className="w-20 h-20 hover:scale-110 cursor-pointer -rotate-3 bg-black flex items-center justify-center"
           >
             <Image
