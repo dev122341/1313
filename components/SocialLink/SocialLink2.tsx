@@ -7,8 +7,8 @@ export default function SocialLink2() {
       <div className="col-start-1 w-full flex flex-col  items-center ">
         <p className="text-7xl relative z-10 font-bold">SOCIALS</p>
         <p className="text-3xl font-semibold">
-          Join <span className="font-sans font-bold">$</span>
-          {"KONKO’S"} WORLD
+          Be <span className="font-sans font-bold">$</span>
+          {"MEME"} BOSS
         </p>
       </div>
       <div className="flex  justify-center  items-center  mt-7  gap-4">
@@ -56,7 +56,7 @@ export default function SocialLink2() {
             <Link
               target="_blank"
               href={
-                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+                "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=..&inputAmount=0.2&fixed=in"
               }
               className="text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0  border-black rotate-[3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate-[-5deg]"
             >
