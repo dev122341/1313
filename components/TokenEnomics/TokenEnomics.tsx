@@ -13,7 +13,7 @@ export default function TokenEnomics() {
         />
         <Image
           className="md:w-[50%] w-full"
-          src={"/mbbody.jpg"}
+          src={"/mainb.jpg"}
           width={1920}
           height={1080}
           alt="trading"
