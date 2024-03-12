@@ -6,14 +6,14 @@ export default function TokenEnomics() {
       <div className="flex md:flex-row flex-col w-full">
         <Image
           className="w-full md:w-[50%]"
-          src={"/mbbody.jpg"}
+          src={"/mbbody.svg"}
           width={1920}
           height={1080}
           alt="trading"
         />
         <Image
           className="md:w-[50%] w-full"
-          src={"/mainb.jpg"}
+          src={"/mainb.svg"}
           width={1920}
           height={1080}
           alt="trading"
