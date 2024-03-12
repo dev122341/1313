@@ -5,7 +5,7 @@ export default function PonkieTradingPove() {
     <div className="relative">
       <div className="flex  w-full  ">
         <Image
-          src={"/dog-bubble2.jpg"}
+          src={"/mainb.jpg"}
           width={1920}
           height={1080}
           alt="trading"
